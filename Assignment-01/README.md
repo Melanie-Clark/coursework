@@ -246,6 +246,4 @@ This ensures the repository is focussed on the important aspects of the project 
 
 A requirements.txt file has been added to the root of the repository. 
 
-The requirements file lists all the dependencies/library items to be installed by pip for the project to run and to be reproduced. 
-
-It may also include version numbers e.g. numpy==1.9.2.
+The requirements plain text file lists all the dependencies/library items to be installed by pip and their version numbers (e.g. numpy==1.9.2) for the project to run and to be reproduced.
