@@ -38,7 +38,7 @@ My little Cavachon, Fleur, also keeps me busy and entertained. She loves her tri
 ---
 
 ## GitHub and PyCharm
-In this assignment, I'll be using GitHub to submit my assignment and track progress and history using version control.
+In this assignment, I'll be using GitHub to submit my assignment and track progress and history using version control, by way of Pull Requests and Merging.
 
 
 **GitHub** and **PyCharm** will be used for the following purposes:
@@ -76,7 +76,9 @@ In this assignment, I'll be using GitHub to submit my assignment and track progr
   - Merge changes from main into local branch
 ---
 ## Git and GitHub Workflow
-_Please note: Additional screenshots and terminal lines have been added to ensure all requirements are met and nothing is missed. I apologise that some of the screenshots may not flow in terms of the same filename, I don't think this is a requirement, but if in a work environment I would ensure these flowed better. Sample filenames are provided in the command lines_
+_Please note: Additional screenshots and terminal lines have been added to ensure requirements are met and not to miss anything.\
+Some of the screenshots have been taken in a test repository, and therefore may not match this repository exactly.\
+Sample filenames are provided in command lines_
 
 ### Checking the status
 
@@ -97,13 +99,19 @@ The below shows an example of unstaged changes:
 ![PyCharm git status](Assets/Screenshots/Checking_the_status_(PyCharm).png) 
 
 ### Creating a branch
-When creating a branch, it's important to state which kind of branch e.g. **Feature, Bugfix, Release, Hotfix**
+When creating a branch, it's important to include which kind of branch e.g. **Feature, Bugfix, Release, Hotfix**
 
 ```
 git checkout -b feature/assignment-one
 ```
 
-_Note: **checkout** immediately switches to the branch_
+_Note: **checkout** immediately switches to the branch_\
+
+Alternatively, if there's already an existing branch, you can checkout/switch to the branch:
+
+```
+git checkout feature/assignment-one
+```
 
 **Terminal:**
 
@@ -117,9 +125,10 @@ _Note: **checkout** immediately switches to the branch_
 
 ### Adding files to a branch
 
-Before adding files to a branch, you may wish to add a new file. To do so, ensure the branch is selected/checked out and that you're on the right directory:
+Once you are on the branch (as above), you may also wish to add additional files.\
+To do this, first check you are on the relevant directory, or navigate accordingly:
 
-**Check list of directories and files:** 
+**List the directories/files in your active directory:** 
 ```
 ls
 ```
@@ -159,6 +168,8 @@ git add .
 ![PyCharm adding a file](Assets/Screenshots/Adding_a_file_(PyCharm-03).png)
 
 ### Adding commits with meaningful messages
+
+The message should be concise and include filenames where possible.
 
 **Commit:** 
 ```
@@ -200,11 +211,11 @@ You can select `Commit` or `Commit and Push`, the latter would push the branch t
 ![Pull request](Assets/Screenshots/Pull_request-04.png)
 
 ### Merging and deploying to main branch
-6. If there are no conflicts, click on `Merge pull request`.
+1. If there are no conflicts, click on `Merge pull request`.
 
-![Merge](Assets/Screenshots/Pull_request-05.png)  
+![Merge](Assets/Screenshots/Pull_request-05.png)
 
-7. Click on `Confirm merge` to deploy to main.
+2. Click on `Confirm merge` to deploy to main.
 
 ![Merge and Deploy](Assets/Screenshots/Pull_request-06.png)  
 
@@ -213,9 +224,9 @@ It's also good practice before adding/editing to a branch, to check for updates 
 
 #### Pycharm:
 - Click on the `Fetch` icon on the left toolbar.
-- Right-click on a branch, and click `Update`.
-- Click `Merge 'main' into 'feature/assignment-one`
-- 
+- Right-click on a branch and click `Update`.
+- Click `Merge 'main' into 'feature/assignment-one'`
+
 ![Updating Main](Assets/Screenshots/Fetch_update_merge.png)  
 
 ---
