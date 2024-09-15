@@ -1,10 +1,8 @@
 # WEATHER HI LO
 
-The **Weather Hi Lo** game 
+In the **Weather Hi Lo** game, the player is asked for their OpenWeather API key and to enter a UK town, city or county.
 
-The player is asked for their OpenWeather API key and to enter a UK town, city or county.
-
-The player is asked to guess if the next days temperature will be higher or lower for 4 days.
+The player is then asked to guess if the next days temperature will be higher or lower for the next four days.
 
 The player scores a point if they guess correctly or if it's the same temperature on both days.
 
@@ -74,10 +72,10 @@ All other requirements are throughout the program.
 ## Importing additional modules
 The following modules/libraries have been imported and are listed in the `requirements.txt` file:
 
-- requests _(allows HTTP requests to interact with APIs)_
-- datetime _(used for date manipulation)_
-- colorama _(used to access colours by name)_
-- sys _(used to exit the program)_
+- **requests** _(allows HTTP requests to interact with APIs)_
+- **datetime** _(used for date manipulation)_
+- **colorama** _(used to access colours by name)_
+- **sys** _(used to exit the program) - Note: This is an in-built python module_
 
 To install them, either click on them in the program file and import package, or in the terminal type i.e:
 ```
