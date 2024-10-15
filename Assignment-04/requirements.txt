@@ -1,0 +1,6 @@
+# external dependencies are listed below
+
+# Assignment 4 requirements
+requests~=2.32.3
+Flask~=3.0.3
+mysql-connector-python~=9.0.0
