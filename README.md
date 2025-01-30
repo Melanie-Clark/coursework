@@ -1,5 +1,8 @@
 # Coursework
-This is the main README file for the coursework and contains notes regarding its structure.
+This is the main README file for the coursework.
 
-### File Name and Structuring
-- Assignments are suffixed numerically for ordering purposes e.g. `Assignment-01`
+### Assignments
+- Assignment 1 - git and GitHub
+- Assignment 2 - APIs (weather game - winner receives a poem based on todays weather)
+- Assignment 3 - SQL sample primary care database with stored procedures and subqueries
+- Assignment 4 - Local API using Flask and mysql-connector for a pizza store
