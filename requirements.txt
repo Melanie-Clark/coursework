@@ -1,5 +1,5 @@
 # external dependencies are listed below
 
-requests~=2.32.3
+requests~=2.33.0
 DateTime~=5.5
 colorama~=0.4.6
